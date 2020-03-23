@@ -1307,3 +1307,56 @@ body.lock {
   font-size: 11px;
   font-weight: 400;
 }
+
+/* fixed */
+@-webkit-keyframes fixed-back-call {
+  0% {
+    -webkit-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+  100% {
+    -webkit-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+  }
+}
+@keyframes fixed-back-call {
+  0% {
+    -webkit-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+  100% {
+    -webkit-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+  }
+}
+
+.fixed-back-call {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background: url("../images/!fixed/fixed-back-call.svg") 50% 50% no-repeat;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: fixed-back-call 2s infinite;
+          animation: fixed-back-call 2s infinite;
+}
+
+@media (max-width: 767px) {
+  .fixed-back-call {
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+  }
+}

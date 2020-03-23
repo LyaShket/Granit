@@ -666,3 +666,34 @@ body {
     &__back-call {
     }
 }
+
+/* fixed */
+@keyframes fixed-back-call {
+    0% {
+        transform: rotate(-40deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(-40deg);
+    }
+}
+.fixed-back-call {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background: url("../images/!fixed/fixed-back-call.svg") 50% 50% no-repeat;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    animation: fixed-back-call 2s infinite;
+    @media (max-width: 767px) {
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 80px;
+    }
+}
