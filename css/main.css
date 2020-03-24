@@ -1401,6 +1401,12 @@ body.lock {
   border: 2px solid #8b8b8b;
   padding: 0 15px;
   height: 40px;
+  -webkit-transition: border-color .25s ease;
+  transition: border-color .25s ease;
+}
+
+.popup-back-call .popup__input-name:focus, .popup-back-call .popup__input-tel:focus {
+  border-color: #0d0d0d;
 }
 
 .popup-back-call .popup__input-name {

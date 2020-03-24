@@ -734,6 +734,10 @@ body {
                 border: 2px solid #8b8b8b;
                 padding: 0 15px;
                 height: 40px;
+                transition: border-color .25s ease;
+                &:focus {
+                    border-color: #0d0d0d;
+                }
             }
             &-name {
                 margin: 0 0 20px 0;
