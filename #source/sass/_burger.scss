@@ -14,35 +14,41 @@
     padding: 16px 0 16px 0;
   }
   &__button {
+    display: flex;
+    align-items: center;
     align-self: center;
-    max-width: 26px;
+    width: 26px;
+    height: 22px;
     cursor: pointer;
     z-index: 1;
-    position: relative;
-    &,
-    &:before,
-    &:after {
-      width: 100%;
+    span {
+      position: relative;
+    }
+    span,
+    span:before,
+    span:after {
+      display: block;
+      width: 26px;
       height: 2px;
       background-color: #292929;
       transition: width .25s ease,
       transform .25s ease,
       top .25s ease;
     }
-    &:before,
-    &:after {
+    span:before,
+    span:after {
       position: absolute;
     }
-    &:before {
+    span:before {
       content: '';
       top: -8px;
     } 
-    &:after {
+    span:after {
       content: '';
       top: 8px;
     }
     /* active */
-    &.active {
+    &.active span {
       transform: rotate(45deg);
       &:before {
         top: 0;
