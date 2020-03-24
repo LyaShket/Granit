@@ -279,10 +279,23 @@
                     <button class="footer__back-call back-call w">Обратный звонок</button>
                 </div>
             </div>
+            <a data-fancybox data-src="#popup-back-call" href="javascript:;" class="btn btn-primary">Open demo</a>
         </div>
     </div>
     <!-- fixed -->
     <div class="fixed-back-call"></div>
+    <!-- fancybox popup -->
+    <div class="popup-back-call popup" id="popup-back-call">
+        <h2 class="popup__title">Перезвоним в течении <span>30 минут!</span></h2>
+        <h3 class="popup__subtitle">8 800 342-13-33. Бесплатный звонок по России</h3>
+        <form class="popup__form" action="#">
+            <p class="popup__label">Ваше имя:</p>
+            <input class="popup__input-name" type="text" placeholder="Имя" required>
+            <p class="popup__label">Ваш номер телефона в формате +7(123)4567890:</p>
+            <input class="popup__input-tel" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" value="+7" required>
+            <input class="popup__input-submit back-call w" type="submit" value="Обратный звонок">
+        </form>
+    </div>
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

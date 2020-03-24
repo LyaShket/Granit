@@ -462,6 +462,7 @@ body.lock {
 .back-call {
   width: 160px;
   height: 40px;
+  cursor: pointer;
   -webkit-transition: background-color .25s ease, color .25s ease;
   transition: background-color .25s ease, color .25s ease;
   /* style for text */
@@ -1363,4 +1364,59 @@ body.lock {
     width: 80px;
     height: 80px;
   }
+}
+
+/* fancybox popup */
+.popup {
+  display: none;
+}
+
+.popup-back-call .popup__title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.popup-back-call .popup__title span {
+  color: #ffcc00;
+}
+
+.popup-back-call .popup__subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.popup-back-call .popup__label {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.popup-back-call .popup__input-name, .popup-back-call .popup__input-tel {
+  width: 100%;
+  border: 2px solid #8b8b8b;
+  padding: 0 15px;
+  height: 40px;
+}
+
+.popup-back-call .popup__input-name {
+  margin: 0 0 20px 0;
+}
+
+.popup-back-call .popup__input-tel {
+  margin: 0 0 30px 0;
+}
+
+.popup-back-call .popup__input-submit {
+  width: 100%;
+  font-size: 15px;
+  border: none;
+}
+
+.popup-back-call .popup__input-submit:hover {
+  background-color: #ffcc00;
 }

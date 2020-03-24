@@ -21,6 +21,7 @@ body {
 .back-call {
     width: 160px;
     height: 40px;
+    cursor: pointer;
     transition: background-color .25s ease,
     color .25s ease;
     /* style for text */
@@ -696,5 +697,58 @@ body {
         right: 10px;
         width: 80px;
         height: 80px;
+    }
+}
+/* fancybox popup */
+.popup {
+    display: none;
+}
+.popup-back-call {
+    .popup {
+        &__title {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 0 0 10px 0;
+            text-align: center;
+            span {
+                color: #ffcc00;
+            }
+        }
+        &__subtitle {
+            font-size: 12px;
+            font-weight: 400;
+            text-align: center;
+            margin: 0 0 40px 0;
+        }
+        &__form {
+        }
+        &__label {
+            font-size: 15px;
+            font-weight: 500;
+            margin: 0 0 10px 0;
+        }
+        &__input {
+            &-name, &-tel {
+                width: 100%;
+                border: 2px solid #8b8b8b;
+                padding: 0 15px;
+                height: 40px;
+            }
+            &-name {
+                margin: 0 0 20px 0;
+            }
+            &-tel {
+                margin: 0 0 30px 0;
+            }
+            &-submit {
+                width: 100%;
+                font-size: 15px;
+                border: none;
+                &:hover {
+                    background-color: #ffcc00;
+                }
+            }
+        }
     }
 }
