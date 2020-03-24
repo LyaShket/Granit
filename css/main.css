@@ -1339,6 +1339,10 @@ body.lock {
 }
 
 .fixed-back-call {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
