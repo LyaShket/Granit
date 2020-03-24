@@ -1273,6 +1273,10 @@ body.lock {
   font-weight: 300;
 }
 
+.footer__copyrights {
+  font-size: 12px;
+}
+
 .footer__right {
   display: -webkit-box;
   display: -ms-flexbox;

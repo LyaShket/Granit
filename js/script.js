@@ -34,6 +34,24 @@ $(document).ready(function(){
 	}
 });
 
+//anchors
+$(document).ready(function(){
+    $(".nav-menu a[href^=#]").on("click", function (event) {
+        event.preventDefault();
+        let id  = $(this).attr('href'),
+			top = $(id).offset().top;
+		$('body,html').animate({scrollTop: top - 60}, 1500);
+	});
+	$(".menu-burg__box a[href^=#]").on("click", function (event) {
+		event.preventDefault();
+		let id  = $(this).attr('href'),
+			top = $(id).offset().top;
+		$('.menu-burg__box,.menu-burg__button').removeClass('active');
+		$('body').removeClass('lock');
+		$('body,html').animate({scrollTop: top - 80}, 1500);
+	})
+});
+
 /*
 // sliders
 $(document).ready(function(){
@@ -85,22 +103,4 @@ $(".list__left").click(function(){
 	}
 });
 
-//anchors
-$(document).ready(function(){
-    $(".header__nav,.header__logo,.menu__logo,.footer__links,.home__button-container,.places__button-container").on("click","a", function (event) {
-        event.preventDefault();
-        let id  = $(this).attr('href'),
-			top = $(id).offset().top;
-		top -= screen.width < 768 ? 58 : 0;
-		$('body,html').animate({scrollTop: top}, 1500);
-	});
-	$(".menu__box").on("click","a", function (event) {
-		event.preventDefault();
-		let id  = $(this).attr('href'),
-			top = $(id).offset().top;
-		$('.menu__box,.menu__button').removeClass('active');
-		$('body').removeClass('lock');
-		$('body,html').animate({scrollTop: top - 58}, 1500);
-	})
-});
 */

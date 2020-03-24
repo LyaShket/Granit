@@ -101,9 +101,6 @@ body {
         margin: 0 14px 0 0;
     }
 
-    &__left-text {
-    }
-
     &__left-title {
         color: #292929;
         font-size: 20px;
@@ -213,12 +210,6 @@ body {
         line-height: 22px;
         width: 243px;
         margin: 0 0 65px 0;
-    }
-
-    &__buttons {
-    }
-
-    &__button-link {
     }
 
     span {
@@ -619,9 +610,6 @@ body {
         margin: 0 14px 0 0;
     }
 
-    &__left-text {
-    }
-
     &__left-title {
         font-size: 20px;
         font-weight: 700;
@@ -634,8 +622,9 @@ body {
         font-size: 11px;
         font-weight: 300;
     }
-
+    
     &__copyrights {
+        font-size: 12px;
     }
 
     &__right {
@@ -664,8 +653,6 @@ body {
         font-weight: 400;
     }
 
-    &__back-call {
-    }
 }
 
 /* fixed */
@@ -714,14 +701,14 @@ body {
             span {
                 color: #ffcc00;
             }
+            
         }
         &__subtitle {
             font-size: 12px;
             font-weight: 400;
             text-align: center;
             margin: 0 0 40px 0;
-        }
-        &__form {
+            
         }
         &__label {
             font-size: 15px;
