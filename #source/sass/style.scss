@@ -8,10 +8,12 @@
 /* common styles */
 body {
     overflow-x: hidden;
-    font-family: "Gotham Pro";
     &.lock {
         overflow-y: hidden;
     }
+}
+.wrapper {
+    font-family: "Gotham Pro";
 }
 .container {
     max-width: 970px;
