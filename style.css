@@ -427,8 +427,8 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: 'Gotham Pro';
   font-display: swap;
-  src: url("../fonts/GothamPro/GothamPro.eot");
-  src: url("../fonts/GothamPro/GothamPro.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro.woff") format("woff"), url("../fonts/GothamPro/GothamPro.ttf") format("truetype");
+  src: url("fonts/GothamPro/GothamPro.eot");
+  src: url("fonts/GothamPro/GothamPro.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro/GothamPro.woff") format("woff"), url("fonts/GothamPro/GothamPro.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -436,8 +436,8 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: 'Gotham Pro';
   font-display: swap;
-  src: url("../fonts/GothamPro/GothamPro-Light.eot");
-  src: url("../fonts/GothamPro/GothamPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro-Light.woff") format("woff"), url("../fonts/GothamPro/GothamPro-Light.ttf") format("truetype");
+  src: url("fonts/GothamPro/GothamPro-Light.eot");
+  src: url("fonts/GothamPro/GothamPro-Light.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro/GothamPro-Light.woff") format("woff"), url("fonts/GothamPro/GothamPro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -445,8 +445,8 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: 'Gotham Pro';
   font-display: swap;
-  src: url("../fonts/GothamPro/GothamPro-Medium.eot");
-  src: url("../fonts/GothamPro/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro-Medium.woff") format("woff"), url("../fonts/GothamPro/GothamPro-Medium.ttf") format("truetype");
+  src: url("fonts/GothamPro/GothamPro-Medium.eot");
+  src: url("fonts/GothamPro/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro/GothamPro-Medium.woff") format("woff"), url("fonts/GothamPro/GothamPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -454,8 +454,8 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: 'Gotham Pro';
   font-display: swap;
-  src: url("../fonts/GothamPro/GothamPro-Bold.eot");
-  src: url("../fonts/GothamPro/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro-Bold.woff") format("woff"), url("../fonts/GothamPro/GothamPro-Bold.ttf") format("truetype");
+  src: url("fonts/GothamPro/GothamPro-Bold.eot");
+  src: url("fonts/GothamPro/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro/GothamPro-Bold.woff") format("woff"), url("fonts/GothamPro/GothamPro-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
